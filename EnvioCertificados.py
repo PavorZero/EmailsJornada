@@ -11,8 +11,8 @@ import mimetypes
 # ==============================
 # CONFIG MICROSOFT GRAPH
 # ==============================
-CLIENT_ID = "8c6f0bfb-527f-49fe-9437-2707ae30411a"
-TENANT_ID = "6d6bcc3f-bda1-4f54-af1d-86d4b7d4e6b8"
+CLIENT_ID = "SEU ID"
+TENANT_ID = "SEU ID"
 AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID}"
 SCOPES = ["Mail.Send"]
 GRAPH_URL = "https://graph.microsoft.com/v1.0"
@@ -393,4 +393,5 @@ def carregar_assinatura():
         lbl_assinatura.config(text=os.path.basename(assinatura_path))
 
 # Iniciar aplicação
+
 root.mainloop()
