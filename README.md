@@ -8,13 +8,14 @@ Aplicativo em Python + Tkinter para envio de e-mails usando a Microsoft Graph AP
 - Inserção de logo inline na assinatura (cid:logo).
 - Interface gráfica simples e funcional com Tkinter.
 - Salvamento automático do e-mail em Itens Enviados.
-- 
+  
 🖼️ Interface
 - Campo para destinatário e assunto.
 - Editor de mensagem e assinatura HTML.
 - Seleção de anexos múltiplos.
 - Seleção de logo para assinatura.
 - Botão para enviar via Graph API.
+  
 ⚙️ Requisitos
 Python 3.9+
 Dependências:
@@ -49,12 +50,9 @@ O executável estará em dist/app.exe.
 - Tkinter
 - Microsoft Graph API
 - MSAL Python
-- 
+  
 📄 Licença
 Este projeto está sob a licença MIT - veja o arquivo LICENSE para detalhes.
 
 🤝 Contribuição
 Sinta-se à vontade para abrir Issues ou enviar Pull Requests 🚀.
-
-👨‍💻 Autor
-PavorZero
